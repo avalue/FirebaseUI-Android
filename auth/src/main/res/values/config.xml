@@ -30,6 +30,8 @@
     https://developers.facebook.com/docs/facebook-login/permissions
     -->
     <string-array name="facebook_permissions">
+        <item>email</item>
+        <item>public_profile</item>
     </string-array>
 
     <!--

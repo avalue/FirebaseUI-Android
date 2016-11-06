@@ -107,13 +107,13 @@ public class AuthMethodPickerActivity
         for (final IDPProvider provider: mIdpProviders) {
             View loginButton = null;
             switch (provider.getProviderId()) {
-                case GoogleAuthProvider.PROVIDER_ID:
-                    loginButton = getLayoutInflater()
-                            .inflate(R.layout.idp_button_google, btnHolder, false);
-                    break;
                 case FacebookAuthProvider.PROVIDER_ID:
                     loginButton = getLayoutInflater()
                             .inflate(R.layout.idp_button_facebook, btnHolder, false);
+                    break;
+                case GoogleAuthProvider.PROVIDER_ID:
+                    loginButton = getLayoutInflater()
+                            .inflate(R.layout.idp_button_google, btnHolder, false);
                     break;
                 default:
                     Log.e(TAG, "No button for provider " + provider.getProviderId());

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Firebase UI</string>
+    <string name="account_welcomeback">Sveiki sugrįžę</string>
+    <string name="sign_in_with_google">Prisijungti su Google</string>
+    <string name="sign_in_with_facebook">Prisijungti su Facebook</string>
+    <string name="sign_in_with_email">Prisijungti su el. paštu</string>
+    <string name="progress_dialog_loading">Kraunasi…</string>
+    <string name="email_hint">El. paštas</string>
+    <string name="next">Tęsti</string>
+    <string name="missing_email_address">Įveskite savo elektroninio pašto adresą</string>
+    <string name="name_hint">Vardas ir pavardė</string>
+    <string name="password_hint">Slaptažodis</string>
+    <string name="create_account_title">Sukurti paskyrą</string>
+    <string name="required_field">Jūs negalite palikti tai tuščia.</string>
+    <string name="password_length">Saugūs slaptažodžiai turi bent %1$d simbolius, raidžių ir skaičių derinį</string>
+    <string name="invalid_email_address">Netikslus elektroninio pašto adresas</string>
+    <string name="button_text_save">Įrašyti</string>
+    <string name="create_account_preamble">"Paliesdami ĮRAŠYTI jūs nurodote, kad sutinkate su "</string>
+    <string name="terms_of_service">paslaugų teikimo sąlygomis</string>
+    <string name="trouble_signing_in">Problema prisijungiant?</string>
+    <string name="login_error">Nepavyksta prisijungti</string>
+    <string name="progress_dialog_signing_in">Jungiamasi…</string>
+    <string name="recover_password_title">Atstatyti slaptažodį</string>
+    <string name="password_recovery_body">Gaukite instrukcijas kaip pakeisti slaptažodį, šiuo elektroninio pašto adresu.</string>
+    <string name="button_text_send">Siųsti</string>
+    <string name="check_your_email">Patikrinkite savo el. paštą</string>
+    <string name="button_done">Baigta</string>
+    <string name="progress_dialog_sending">Siunčiama…</string>
+    <string name="sign_in">Prisijungti</string>
+    <string name="welcome_back_idp_header">Jūs jau turite sąskaitą</string>
+    <string name="welcome_back_idp_prompt">Jūs jau naudojate <xliff:g id="email_addr" example="jane.doe@example.com">%1$s</xliff:g>.
+\nPrisijunkite su <xliff:g id="provider_name" example="Google">%2$s</xliff:g>.</string>
+    <string name="progress_dialog_signing_up">Registruojama…</string>
+</resources>
